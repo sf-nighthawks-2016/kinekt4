@@ -42,16 +42,24 @@ $(function() {
   console.log("hello");
   game = new Kinekt4();
   game.whoseTurn();
-  // showWhoseTurn();
+  $("#turn").addClass("red");
 
   $("table#board td").on("click", function () {
     var col = $($(this).closest("tr").find("td")).index(this);
     game.addDot(col);
     showDot(game.board[col].length,col);
+    showTurn();
   })
 });
+
+
 
 // View
 var showDot = function (row,col) {
   $("table#board tr:eq(-" + row + ") td:eq(" + col + ")").addClass(game.notWhoseTurn());
 }
+
+var showTurn = function () {
+  $("#turn").toggleClass("black red");
+}
+

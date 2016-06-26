@@ -3,7 +3,7 @@
   src: url(../font/Raleway-Thin.ttf);
 }
 
-#container {
+.container {
   width: 1000px;
   margin: 0 auto;
   font-family: Raleway-Thin;
@@ -18,12 +18,19 @@ table {
 }
 
 table, td {
-    border: 1px solid black;
-    padding: 5px;
+  border: 1px solid black;
+  padding: 5px;
 }
 
 td {
   border-radius: 100px;
+}
+
+#turn {
+  border: 1px solid black;
+  padding: 16.5px;
+  border-radius: 100px;
+  display: inline-block;
 }
 
 .red {
