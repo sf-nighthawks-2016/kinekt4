@@ -9,3 +9,11 @@ table, tr, td {
    height: 40px;
    text-align: center;
 }
+
+.red {
+  background-color: red;
+}
+
+.black {
+  background-color: black;
+}
