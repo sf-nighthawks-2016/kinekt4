@@ -20,8 +20,17 @@ td {
   border-radius: 100px;
 }
 
+#turn {
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 16.5px;
+  border-radius: 100px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
 .container {
-  width: 1000px;
+  width: 30%;
   margin: 0 auto;
   font-family: Raleway-Thin;
 }
@@ -34,9 +43,33 @@ td {
   background: #121921;
 }
 
-#turn {
-  border: 1px solid black;
-  padding: 16.5px;
-  border-radius: 100px;
-  display: inline-block;
+.btn {
+  border-radius: 60px;
+  font-family: Raleway-Thin;
+  color: #ffffff;
+  font-size: 14px;
+  background: #5b99bf;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  text-align: center;
+  margin: 0 auto;
+  vertical-align: bottom;
+  border: none;
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 300px;
+}
+
+.btn:hover {
+  background: #6099bd;
+  background-image: -webkit-linear-gradient(top, #6099bd, #407091);
+  background-image: -moz-linear-gradient(top, #6099bd, #407091);
+  background-image: -ms-linear-gradient(top, #6099bd, #407091);
+  background-image: -o-linear-gradient(top, #6099bd, #407091);
+  background-image: linear-gradient(to bottom, #6099bd, #407091);
+  text-decoration: none;
+}
+
+h1 {
+  margin: 0 auto;
 }

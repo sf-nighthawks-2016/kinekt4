@@ -50,6 +50,9 @@ $(function() {
     showTurn();
     }
   })
+  $(".btn").on("click", function(){
+    window.location.reload(true);
+  })
 });
 
 // View
