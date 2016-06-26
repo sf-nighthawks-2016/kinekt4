@@ -5,15 +5,10 @@ var Kinekt4 = function() {
 Kinekt4.prototype = {
   maxRows: 6,
   maxCols: 7,
-  board: [
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    []
-  ],
+  // TODO refactor board to use maxCols
+  board: [[],[],[],[],[],[],[]],
+
+  // TODO refactor whoseTurn and notWhoseTurn to variable with default and toggle function
   whoseTurn: function () {
     var redCount = $.map(this.board, function(n) {
       return n;
@@ -57,8 +52,6 @@ $(function() {
   })
 });
 
-
-
 // View
 var showDot = function (row,col) {
   $("table#board tr:eq(-" + row + ") td:eq(" + col + ")").addClass(game.notWhoseTurn());
@@ -67,4 +60,3 @@ var showDot = function (row,col) {
 var showTurn = function () {
   $("#turn").toggleClass("black red");
 }
-
