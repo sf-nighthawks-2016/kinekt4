@@ -3,12 +3,6 @@
   src: url(../font/Raleway-Thin.ttf);
 }
 
-.container {
-  width: 1000px;
-  margin: 0 auto;
-  font-family: Raleway-Thin;
-}
-
 table {
   width: 300px;
   height: 260px;
@@ -26,11 +20,10 @@ td {
   border-radius: 100px;
 }
 
-#turn {
-  border: 1px solid black;
-  padding: 16.5px;
-  border-radius: 100px;
-  display: inline-block;
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  font-family: Raleway-Thin;
 }
 
 .red {
@@ -41,4 +34,9 @@ td {
   background: #121921;
 }
 
-
+#turn {
+  border: 1px solid black;
+  padding: 16.5px;
+  border-radius: 100px;
+  display: inline-block;
+}
