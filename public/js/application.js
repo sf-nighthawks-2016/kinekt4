@@ -50,6 +50,9 @@ $(function() {
     showDot(game.board[col].length,col);
     showTurn();
   })
+  $(".btn").on("click", function(){
+    window.location.reload(true);
+  })
 });
 
 
