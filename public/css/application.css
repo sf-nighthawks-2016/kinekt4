@@ -3,12 +3,6 @@
   src: url(../font/Raleway-Thin.ttf);
 }
 
-.container {
-  width: 30%;
-  margin: 0 auto;
-  font-family: Raleway-Thin;
-}
-
 table {
   width: 300px;
   height: 260px;
@@ -33,6 +27,12 @@ td {
   border-radius: 100px;
   display: inline-block;
   margin-top: 20px;
+}
+
+.container {
+  width: 30%;
+  margin: 0 auto;
+  font-family: Raleway-Thin;
 }
 
 .red {
@@ -73,5 +73,3 @@ td {
 h1 {
   margin: 0 auto;
 }
-
-
