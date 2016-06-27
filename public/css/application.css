@@ -3,6 +3,10 @@
   src: url(../font/Raleway-Thin.ttf);
 }
 
+h1 {
+  margin: 0 auto;
+}
+
 table {
   width: 300px;
   height: 260px;
@@ -20,19 +24,19 @@ td {
   border-radius: 100px;
 }
 
-#turn {
+.container {
+  width: 30%;
+  margin: 0 auto;
+  font-family: Raleway-Thin;
+}
+
+.whose_turn {
   margin: 0 auto;
   border: 1px solid black;
   padding: 16.5px;
   border-radius: 100px;
   display: inline-block;
   margin-top: 20px;
-}
-
-.container {
-  width: 30%;
-  margin: 0 auto;
-  font-family: Raleway-Thin;
 }
 
 .red {
@@ -68,8 +72,4 @@ td {
   background-image: -o-linear-gradient(top, #6099bd, #407091);
   background-image: linear-gradient(to bottom, #6099bd, #407091);
   text-decoration: none;
-}
-
-h1 {
-  margin: 0 auto;
 }
