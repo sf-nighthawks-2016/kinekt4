@@ -24,19 +24,19 @@ td {
   border-radius: 100px;
 }
 
-.container {
-  width: 30%;
-  margin: 0 auto;
-  font-family: Raleway-Thin;
-}
-
-.whose_turn {
+#whose_turn {
   margin: 0 auto;
   border: 1px solid black;
   padding: 16.5px;
   border-radius: 100px;
   display: inline-block;
   margin-top: 20px;
+}
+
+.container {
+  width: 30%;
+  margin: 0 auto;
+  font-family: Raleway-Thin;
 }
 
 .red {
